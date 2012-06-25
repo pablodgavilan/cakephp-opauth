@@ -35,7 +35,7 @@ Issues & questions
 -------------------
 - Discussion group: [Google Groups](https://groups.google.com/group/opauth)  
   Feel free to post your questions to the discussion group. This is the primary channel for support.
-- Issues: [Github Issues](https://github.com/uzyn/opauth/issues)  
+- Issues: [Github Issues](https://github.com/uzyn/cakephp-opauth/issues)  
 - Twitter: [@uzyn](http://twitter.com/uzyn)  
 - Email me: chua@uzyn.com  
 - IRC: **#opauth** on [Freenode](http://webchat.freenode.net/?channels=opauth&uio=d4)
