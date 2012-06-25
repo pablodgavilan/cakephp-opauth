@@ -1,3 +1,15 @@
 [submodule "Plugin/Opauth/Vendor/Opauth"]
 	path = Plugin/Opauth/Vendor/Opauth
 	url = git://github.com/uzyn/opauth.git
+[submodule "Plugin/Opauth/Strategy/Facebook"]
+	path = Plugin/Opauth/Strategy/Facebook
+	url = git://github.com/uzyn/opauth-facebook.git
+[submodule "Plugin/Opauth/Strategy/Twitter"]
+	path = Plugin/Opauth/Strategy/Twitter
+	url = git://github.com/uzyn/opauth-twitter.git
+[submodule "Plugin/Opauth/Strategy/Google"]
+	path = Plugin/Opauth/Strategy/Google
+	url = git://github.com/uzyn/opauth-google.git
+[submodule "Plugin/Opauth/Strategy/OpenID"]
+	path = Plugin/Opauth/Strategy/OpenID
+	url = git://github.com/uzyn/opauth-openid.git
