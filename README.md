@@ -13,8 +13,8 @@ How to set up
 
 2. Replace the content of `app/` with this demo.
 
-3. Go to `http://localhost` and you should see:
-   -- Insert screenshot ---
+3. Go to `http://localhost` and you should see:  
+   ![Demo homepage](https://github.com/uzyn/cakephp-opauth/raw/sample/webroot/img/demo/homepage.png)
 
 4. Click on any of the authentication methods to try. Try with OpenID as it is configurationless.
 
@@ -28,8 +28,8 @@ How to set up
    ));
    ```
 
-6. After authentication, successful or otherwise, you should see the following screen. 
-   -- Insert screenshot --
+6. After authentication, successful or otherwise, you should see the following screen:  
+   ![Demo callback](https://github.com/uzyn/cakephp-opauth/raw/sample/webroot/img/demo/callback.png)
 
 Issues & questions
 -------------------
