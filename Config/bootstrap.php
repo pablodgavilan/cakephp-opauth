@@ -132,3 +132,25 @@ Cache::config('default', array('engine' => 'File'));
 
 // Loads Opauth Plugin
 CakePlugin::load('Opauth', array('routes' => true, 'bootstrap' => true));
+
+// Configure Facebook strategy
+Configure::write('Opauth.Strategy.Facebook', array(
+	'app_id' => 'YOUR FACEBOOK APP ID',
+	'app_secret' => 'YOUR FACEBOOK APP SECRET'
+));
+
+// Configure Google strategy
+Configure::write('Opauth.Strategy.Google', array(
+	'client_id' => 'YOUR CLIENT ID',
+	'client_secret' => 'YOUR CLIENT SECRET'
+));
+
+// Configure Twitter strategy
+Configure::write('Opauth.Strategy.Twitter', array(
+	'key' => 'YOUR CONSUMER KEY',
+	'secret' => 'YOUR CONSUMER SECRET'
+));
+
+// Configure OpenID strategy
+Configure::write('Opauth.Strategy.OpenID', array(
+));
