@@ -32,6 +32,15 @@
 	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
 
 /**
+ * Opauth callback
+ */
+	Router::connect(
+		'/opauth-complete/*', 
+		array('controller' => 'users', 'action' => 'opauth_complete')
+	);
+
+
+/**
  * Load all plugin routes.  See the CakePlugin documentation on 
  * how to customize the loading of plugin routes.
  */
