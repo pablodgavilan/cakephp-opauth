@@ -129,3 +129,6 @@ Cache::config('default', array('engine' => 'File'));
  * CakePlugin::load('DebugKit'); //Loads a single plugin named DebugKit
  *
  */
+
+// Loads Opauth Plugin
+CakePlugin::load('Opauth', array('routes' => true, 'bootstrap' => true));
