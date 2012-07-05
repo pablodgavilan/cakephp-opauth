@@ -133,24 +133,34 @@ Cache::config('default', array('engine' => 'File'));
 // Loads Opauth Plugin
 CakePlugin::load('Opauth', array('routes' => true, 'bootstrap' => true));
 
-// Configure Facebook strategy
-Configure::write('Opauth.Strategy.Facebook', array(
-	'app_id' => 'YOUR FACEBOOK APP ID',
-	'app_secret' => 'YOUR FACEBOOK APP SECRET'
-));
+/**
+ * If your CakePHP app does not reside at DocumentRoot (eg. http://localhost),
+ * but at a directory below DocumentRoot (eg. http://localhost/your-cake-app)
+ * Uncomment the next line and replace 'your-cake-app' with your actual path
+ */
+	//Configure::write('Opauth.path', '/your-cake-app/auth/');
 
-// Configure Google strategy
-Configure::write('Opauth.Strategy.Google', array(
-	'client_id' => 'YOUR CLIENT ID',
-	'client_secret' => 'YOUR CLIENT SECRET'
-));
+/**
+ * Opauth strategy configurations
+ */
+	// Facebook strategy
+	Configure::write('Opauth.Strategy.Facebook', array(
+		'app_id' => 'YOUR FACEBOOK APP ID',
+		'app_secret' => 'YOUR FACEBOOK APP SECRET'
+	));
 
-// Configure Twitter strategy
-Configure::write('Opauth.Strategy.Twitter', array(
-	'key' => 'YOUR CONSUMER KEY',
-	'secret' => 'YOUR CONSUMER SECRET'
-));
+	// Google strategy
+	Configure::write('Opauth.Strategy.Google', array(
+		'client_id' => 'YOUR CLIENT ID',
+		'client_secret' => 'YOUR CLIENT SECRET'
+	));
 
-// Configure OpenID strategy
-Configure::write('Opauth.Strategy.OpenID', array(
-));
+	// Twitter strategy
+	Configure::write('Opauth.Strategy.Twitter', array(
+		'key' => 'YOUR CONSUMER KEY',
+		'secret' => 'YOUR CONSUMER SECRET'
+	));
+
+	// OpenID strategy
+	Configure::write('Opauth.Strategy.OpenID', array(
+	));
